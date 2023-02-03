@@ -15,8 +15,8 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.3 || ^8",
-        "phpspec/prophecy": "^1.3",
-        "phpunit/phpunit":"^9.1"
+        "phpspec/prophecy": "dev-master as 1.18",
+        "phpunit/phpunit":"^9.1 || ^10.0"
     },
     "autoload": {
         "psr-4": {
