@@ -17,7 +17,7 @@ function runTest(string $fixtureName): void
 
     if (class_exists(Command::class)) {
         // PHPUnit 9.x
-        (new Command())->run(['phpunit', $filename], false);
+        (new Command())->run(['phpunit', $filename, '--verbose'], false);
     } else {
         // PHPUnit 10.x
         (new Application())->run(['phpunit', $filename]);
